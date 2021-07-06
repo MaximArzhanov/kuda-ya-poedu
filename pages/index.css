@@ -4,3 +4,6 @@
 /*  Общие стили страницы  */
 @import url("../blocks/root/root.css");
 @import url("../blocks/page/page.css");
+
+/*  миксы  */
+@import url("../blocks/root/__page/root__page.css");
