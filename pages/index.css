@@ -1,0 +1,6 @@
+/*  Сторонние библиотеки  */
+@import url("../vendor/normalize.css");
+
+/*  Общие стили страницы  */
+@import url("../blocks/root/root.css");
+@import url("../blocks/page/page.css");
