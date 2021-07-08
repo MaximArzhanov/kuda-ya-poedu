@@ -1,0 +1,15 @@
+.place__text-contain {
+  margin: 0;
+  padding: 80px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: #f2f2f2;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text-contain {
+    padding: 20px;
+  }
+}
