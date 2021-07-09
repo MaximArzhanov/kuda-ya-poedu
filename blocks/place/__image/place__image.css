@@ -1,13 +1,21 @@
 .place__image {
-  background-position: center;
-  padding-bottom: 83.3%;
-  height: 0;
+  width: 100%;
+  height: calc(100vw / 3.2);
+  object-fit: cover;
+  transition: transform 0.2s linear;
+
+  /*  выравнивание alt-text */
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
 }
 
-@media screen and (min-width: 768px) {
-  /*  В каждом нечётном элементе place поменять местами
-      элементы text-contain и image */
-  .place:nth-of-type(2n+1) .place__image {
-    order: -1;
+.place__image:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    height: calc(100vw / 1.6);
   }
 }

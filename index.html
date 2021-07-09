@@ -8,6 +8,7 @@
 </head>
 <body class="root">
   <div class="page root__page">
+
     <header class="header">
       <nav class="header__menu">
         <div class="header__links">
@@ -18,16 +19,17 @@
         <a class="header__report-button" href="#" target="_blank">Пожаловаться</a>
       </nav>
     </header>
+
     <main class="content">
       <section class="lead">
         <div class="lead__text">
           <p class="lead__preheading">куда я поеду</p>
           <h1 class="lead__heading">Куда я поеду сразу, как можно будет куда-то поехать</h1>
         </div>
-        <img class="lead__image" src="./images/intro-image.jpeg" alt="Вид из самолета">
+        <img class="lead__image" src="./images/intro-image.jpeg" alt="Вид из окна самолета.">
       </section>
-      <section class="places">
 
+      <section class="places">
         <article class="place places__place">
           <div class="place__text-contain">
             <h2 class="place__heading">
@@ -44,8 +46,11 @@
               быть насаждение. Леса занимают около трети площади суши.
             </p>
           </div>
-          <div class="place__image
-                      place__image_location_forest"></div>
+          <a href="#" class="place__link-image">
+            <img class="place__image"
+                 src="./images/places-forest.jpeg"
+                 alt="Человек в лесу смотрит на водопад.">
+          </a>
         </article>
 
         <article class="place places__place">
@@ -61,7 +66,11 @@
               на территории гор. В горах берёт своё начало большинство рек Земли.
             </p>
           </div>
-          <div class="place__image place__image_location_mountains"></div>
+          <a href="#" class="place__link-image">
+            <img class="place__image"
+                 src="./images/places-mountains.jpeg"
+                 alt="Человек смотрит на заснеженную вершину горы.">
+          </a>
         </article>
 
         <article class="place places__place">
@@ -84,11 +93,14 @@
               Уеду я.
             </p>
           </div>
-          <div class="place__image
-                      place__image_location_sea"></div>
+          <a href="#" class="place__link-image">
+            <img class="place__image"
+                 src="./images/places-black-sea.jpeg"
+                 alt="Человек стоит на берегу моря и смотрит вдаль.">
+          </a>
         </article>
-
       </section>
+
       <section class="quotes">
         <p class="quotes__preheading">люди</p>
         <h2 class="quotes__heading">Что говорят и говорили люди о путешествиях</h2>
@@ -112,9 +124,11 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <p class="footer__copyright">Максим Аржанов и Михаил Бутырский, 2021</p>
     </footer>
+
   </div>
 </body>
 </html>
