@@ -4,3 +4,7 @@
     color: black;
     text-decoration: none;
 }
+
+.header__report-button:hover{
+  opacity: 0.8;
+}

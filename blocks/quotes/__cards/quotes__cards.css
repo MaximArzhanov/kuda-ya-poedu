@@ -3,3 +3,9 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+@media screen and (max-width:767px){
+    .quotes__cards{
+        flex-direction: column;
+    }
+}

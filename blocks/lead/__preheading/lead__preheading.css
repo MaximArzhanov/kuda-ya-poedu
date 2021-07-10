@@ -6,3 +6,9 @@
   margin: 0;
   line-height: 10px;
 }
+
+@media screen and (max-width:767px){
+    .lead__preheading{
+        font-size: 35px;
+    }
+}
